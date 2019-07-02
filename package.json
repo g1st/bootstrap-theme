@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-theme",
+  "version": "1.0.0",
+  "description": "bootstrap theme clone",
+  "main": "index.html",
+  "scripts": {
+    "autoprefixer": "postcss styles.css -u autoprefixer -o prefixed-styles.css -w",
+    "serve": "browser-sync start --server --files *.html --no-notify -w",
+    "start": "concurrently \"npm run autoprefixer\" \"npm run serve\""
+  },
+  "author": "g1st",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.6.0",
+    "browser-sync": "^2.26.7",
+    "concurrently": "^4.1.1",
+    "postcss-cli": "^6.1.2"
+  }
+}
