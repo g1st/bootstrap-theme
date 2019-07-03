@@ -100,7 +100,7 @@ header {
 }
 
 .hero__background {
-  background: url(/images/bg-masthead.jpg) no-repeat center center;
+  background: url('images/bg-masthead.jpg') no-repeat center center;
   background-size: cover;
   padding: 8em 0;
   position: relative;
@@ -231,19 +231,19 @@ header {
 }
 
 .showcase1 {
-  background: url('/images/bg-showcase-1.jpg') no-repeat;
+  background: url('images/bg-showcase-1.jpg') no-repeat;
   background-size: cover;
   height: 100%;
 }
 
 .showcase2 {
-  background: url('/images/bg-showcase-2.jpg') no-repeat;
+  background: url('images/bg-showcase-2.jpg') no-repeat;
   background-size: cover;
   height: 100%;
 }
 
 .showcase3 {
-  background: url('/images/bg-showcase-3.jpg') no-repeat;
+  background: url('images/bg-showcase-3.jpg') no-repeat;
   background-size: cover;
   height: 100%;
 }
